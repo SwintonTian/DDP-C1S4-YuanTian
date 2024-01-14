@@ -12,7 +12,6 @@ def case_counter(text):
     return uppercase_count, lowercase_count
 
 text = input("Please input anything:")
-uppercase = case_counter(text)
-lowercase = case_counter(text)
+uppercase, lowercase = case_counter(text)
 print(f"Uppercase count: {uppercase}")
 print(f"Lowercase count: {lowercase}")
