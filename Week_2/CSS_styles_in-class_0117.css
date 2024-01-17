@@ -1,0 +1,44 @@
+#breadcrumbs ul {
+    list-style: none;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+#breadcrumbs ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.product-title {
+    text-align: center;
+    color: cornflowerblue;
+
+}
+
+.product-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sizes {
+    margin: 10px;
+}
+
+.quantity {
+    margin: 10px;
+}
+
+.add-to-bag {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
