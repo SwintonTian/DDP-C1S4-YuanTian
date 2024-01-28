@@ -20,18 +20,18 @@ Example Test Cases:
 3. date_passed('26th March', '27th March') should indicate that the scheduled date is yet to pass.
 """
 
-from datetime import datetime
+import datetime
 
 def date_passed(todays_date, scheduled_date):
-    todays_date_result = datetime.strptime(todays_date, '%dth %B')
-    scheduled_date_result = datetime.strptime(scheduled_date, '%dth %B')
+    todays_date_result = datetime.datetime.strptime(todays_date, '%dth %B')
+    scheduled_date_result = datetime.datetime.strptime (scheduled_date, '%dth %B')
 
     if todays_date_result > scheduled_date_result:
-        print( "the scheduled date has passed")
+        print("the scheduled date has passed")
     elif todays_date_result == scheduled_date_result:
-        print( "the scheduled date is today")
+        print("the scheduled date is today")
     else:
-        print( "the scheduled date is yet to pass")
+        print("the scheduled date is yet to pass")
 
 
 # Test cases
