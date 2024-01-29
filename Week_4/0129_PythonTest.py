@@ -91,6 +91,10 @@ def display_most_popular_products():
         print(f"Most Popular Product: {most_popular_product_name}")
     else:
         print("No orders placed yet.")
+        
+# Test cases
+
+
 
 def CustomerOrderManagementSystem():
     while True:
